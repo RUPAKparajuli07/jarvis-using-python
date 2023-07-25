@@ -105,3 +105,5 @@ if __name__ == '__main__':
         else:
             print("Chatting...")
             chat(query)
+
+#you can add more question from here 
