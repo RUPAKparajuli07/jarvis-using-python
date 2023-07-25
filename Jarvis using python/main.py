@@ -45,7 +45,7 @@ def ai(prompt):
     if not os.path.exists("Openai"):
         os.mkdir("Openai")
 
-    
+
     with open(f"Openai/{''.join(prompt.split('intelligence')[1:]).strip() }.txt", "w") as f:
         f.write(text)
 
