@@ -22,7 +22,7 @@ print(response)
       "finish_reason": "stop",
       "index": 0,
       "logprobs": null,
-      "text": "\n\nSubject: Resignation\n\nDear Rupak,\n\nI am writing to inform you of my intention to resign from my current position at [Company]. My last day of work will be [date].\n\nI have enjoyed my time at [Company], and I am grateful for the opportunity to work here. I have learned a great deal during my time in this position, and I am grateful for the experience.\n\nIf I can be of any assistance during this transition, please do not hesitate to ask.\n\nThank you for your understanding.\n\nSincerely,\n[Your Name]"
+      "text": "\n\nSubject: Resignation\n\nDear Rupak,\n\nI am writing to inform you of my intention to resign from my current position at [Company]. My last day of work will be [date].\n\nI have enjoyed my time at [Company], and I am grateful for the opportunity to work here. I have learned a great deal during my time in this position, and I am grateful for the experience.\n\nIf I can be of any assistance during this transition, please do not hesitate to ask.\n\nThank you for your understanding.\n\nSincerely,\nRupak"
     }
   ],
   "created": 1683815400,
