@@ -27,7 +27,6 @@ def chat(query):
     chatStr += f"{response['choices'][0]['text']}\n"
     return response["choices"][0]["text"]
 
-
 def ai(prompt):
     openai.api_key = apikey
     text = f"OpenAI response for Prompt: {prompt} \n *************************\n\n"
