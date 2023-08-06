@@ -1,6 +1,6 @@
 import os
 import openai
-from config import apikey
+from config import apikey 
 
 openai.api_key = apikey 
 
