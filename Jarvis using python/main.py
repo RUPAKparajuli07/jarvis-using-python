@@ -8,7 +8,7 @@ import random
 import numpy as np
 
 chatStr = ""
-def chat(query):
+def chat(query): 
     global chatStr
     print(chatStr)
     openai.api_key = apikey
