@@ -14,7 +14,7 @@ def chat(query):
     openai.api_key = apikey
     chatStr += f"Jarvis: {query}\n Jarvis: "
     response = openai.Completion.create(
-        model="text-davinci-003",
+        model="text-davinci-003", 
         prompt= chatStr,
         temperature=0.7,
         max_tokens=256,
