@@ -9,7 +9,7 @@ import numpy as np
 
 chatStr = ""
 def chat(query):  
-    global chatStr
+    global chatStr 
     print(chatStr) 
     openai.api_key = apikey
     chatStr += f"Jarvis: {query}\n Jarvis: "
