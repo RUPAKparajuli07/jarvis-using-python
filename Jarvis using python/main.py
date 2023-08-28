@@ -37,7 +37,7 @@ def ai(prompt):
         temperature=0.7,
         max_tokens=256,
         top_p=1,
-        frequency_penalty=0,
+        frequency_penalty=0, 
         presence_penalty=0
     )
     text += response["choices"][0]["text"]
