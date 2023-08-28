@@ -22,7 +22,7 @@ def chat(query):
         frequency_penalty=0,
         presence_penalty=0
     )
-    
+     
     say(response["choices"][0]["text"])
     chatStr += f"{response['choices'][0]['text']}\n"
     return response["choices"][0]["text"]
