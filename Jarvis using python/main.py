@@ -11,7 +11,7 @@ chatStr = ""
 def chat(query):  
     global chatStr 
     print(chatStr) 
-    openai.api_key = apikey
+    openai.api_key = apikey 
     chatStr += f"Jarvis: {query}\n Jarvis: "
     response = openai.Completion.create(
         model="text-davinci-003", 
