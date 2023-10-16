@@ -1,6 +1,6 @@
 import speech_recognition as sr 
 import os
-import webbrowser
+import webbrowser 
 import openai   
 from config import apikey
 import datetime  
