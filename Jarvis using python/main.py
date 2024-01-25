@@ -7,7 +7,7 @@ import datetime
 import random    
 import numpy as np
 
-chatStr = ""
+chatStr = "" 
 def chat(query):  
     global chatStr  
     print(chatStr) 
