@@ -1,7 +1,7 @@
 import speech_recognition as sr 
 import os 
 import webbrowser 
-import openai    
+import openai     
 from config import apikey  
 import datetime      
 import random    
