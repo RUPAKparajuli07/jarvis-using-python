@@ -4,7 +4,7 @@ import webbrowser
 import openai 
 from config import apikey
 import datetime      
-import random    
+import random     
 import numpy as np 
  
 chatStr = "" 
